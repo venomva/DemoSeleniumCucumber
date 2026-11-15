@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: io.cucumber.junit.platform.engine.CucumberTestEngine
+-------------------------------------------------------------------------------
+Tests run: 72, Failures: 0, Errors: 0, Skipped: 71, Time elapsed: 14.21 s -- in io.cucumber.junit.platform.engine.CucumberTestEngine

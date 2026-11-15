@@ -1,0 +1,4 @@
+com\testver\runner\TestRunner.class
+com\testver\steps\ModuleSteps.class
+com\testver\steps\HomePageSteps.class
+com\testver\hooks\Hooks.class

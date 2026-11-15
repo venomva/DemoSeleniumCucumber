@@ -1,0 +1,44 @@
+{
+  "browsers": {
+    "argPattern": "--browser {value}",
+    "default": "Chrome",
+    "options": [
+      {
+        "name": "Chrome",
+        "arg": "BROWSER=chrome",
+        "kind": "env"
+      },
+      {
+        "name": "Firefox",
+        "arg": "BROWSER=firefox",
+        "kind": "env"
+      },
+      {
+        "name": "Edge",
+        "arg": "BROWSER=edge",
+        "kind": "env"
+      }
+    ]
+  },
+  "environments": {
+    "argPattern": "--env {value}",
+    "default": "Staging",
+    "options": [
+      {
+        "name": "QA",
+        "kind": "env",
+        "value": "APP_URL=https://testplay.venomva.com/"
+      },
+      {
+        "name": "Staging",
+        "kind": "env",
+        "value": "APP_URL=https://testplay.venomva.com/"
+      },
+      {
+        "name": "Production",
+        "kind": "env",
+        "value": "APP_URL=https://testplay.venomva.com/"
+      }
+    ]
+  }
+}

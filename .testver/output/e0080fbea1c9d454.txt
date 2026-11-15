@@ -1,0 +1,70 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.testver:testver-playground >-------------------
+[INFO] Building Testver Playground Automation 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/io/cucumber/messages/maven-metadata.xml
+Progress (1): 3.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/io/cucumber/messages/maven-metadata.xml (3.7 kB at 4.8 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/cucumber/query/maven-metadata.xml
+Progress (1): 1.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/io/cucumber/query/maven-metadata.xml (1.3 kB at 8.7 kB/s)
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ testver-playground ---
+[INFO] skip non existing resourceDirectory E:\TestverTesting\Skills\SeleniumJavaCucumber\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ testver-playground ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ testver-playground ---
+[INFO] Copying 2 resources from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ testver-playground ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.5.2:test (default-test) @ testver-playground ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[WARNING] System property [cucumber.filter.name] overwritten by user properties from Maven session
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.testver.runner.TestRunner
+[INFO] Running io.cucumber.junit.platform.engine.CucumberTestEngine
+
+@a11y @smoke
+Scenario: Accessibility page loads with all a11y features   # features/a11y.feature:8
+  Given I navigate to the accessibility page                # com.testver.steps.ModuleSteps.iNavigateToA11y()
+  Then the ARIA-labeled icon button should be visible       # com.testver.steps.ModuleSteps.ariaLabeledIconVisible()
+  And the screen-reader only text section should be visible # com.testver.steps.ModuleSteps.screenReaderTextVisible()
+  And the ARIA live region section should be visible        # com.testver.steps.ModuleSteps.ariaLiveRegionVisible()
+  And the tabbable form section should be visible           # com.testver.steps.ModuleSteps.tabbableFormVisible()
+  And the ARIA expanded button section should be visible    # com.testver.steps.ModuleSteps.ariaExpandedButtonVisible()
+  And the broken ARIA section should be visible             # com.testver.steps.ModuleSteps.brokenAriaVisible()
+[WARNING] Tests run: 72, Failures: 0, Errors: 0, Skipped: 71, Time elapsed: 14.21 s -- in io.cucumber.junit.platform.engine.CucumberTestEngine
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.48 s -- in com.testver.runner.TestRunner
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 72, Failures: 0, Errors: 0, Skipped: 71
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  21.978 s
+[INFO] Finished at: 2026-11-14T13:27:39+05:30
+[INFO] ------------------------------------------------------------------------
+
+── stderr ──────────────────────────────────────────
+Nov 14, 2026 1:27:23 PM io.cucumber.junit.platform.engine.DiscoverySelectorResolver warnWhenCucumberFeaturesPropertyIsUsed
+WARNING: Discovering tests using the cucumber.features property. Other discovery selectors are ignored!
+
+This is a work around for the limited JUnit 5 support in Maven and Gradle. Please request/upvote/sponsor/ect better support for JUnit 5 discovery selectors. For details see: https://github.com/cucumber/cucumber-jvm/pull/2498
+
+If you are using the JUnit 5 Suite Engine, Platform Launcher API or Console Launcher you should not use this property. Please consult the JUnit 5 documentation on test selection.
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Nov 14, 2026 1:27:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 14, 2026 1:27:31 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.78. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.

@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="io.cucumber.junit.platform.engine.CucumberTestEngine" time="14.213" tests="72" errors="0" skipped="71" failures="0">
+  <properties>
+    <property name="java.specification.version" value="26"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\donth\.cache\selenium\chromedriver\win64\157.0.8103.78\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="E:\TestverTesting\Skills\SeleniumJavaCucumber\target\test-classes;E:\TestverTesting\Skills\SeleniumJavaCucumber\target\classes;C:\Users\donth\.m2\repository\org\seleniumhq\selenium\selenium-java\4.27.0\selenium-java-4.27.0.jar;C:\Users\donth\.m2\repository\org\seleniumhq\selenium\selenium-api\4.27.0\selenium-api-4.27.0.jar;C:\Users\donth\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\donth\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.27.0\selenium-chrome-driver-4.27.0.jar;C:\Users\donth\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\donth\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.27.0\selenium-chromium-driver-4.27.0.jar;C:\Users\donth\.m2\repository\org\seleniumhq\selenium\selenium-json\4.27.0\selenium-json-4.27.0.jar;C:\Users\donth\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.27.0\selenium-manager-4.27.0.jar;C:\Users\donth\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.27.0\selenium-devtools-v129-4.27.0.jar;C:\Users\donth\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.27.0\selenium-devtools-v130-4.27.0.jar;C:\Users\donth\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.27.0\selenium-devtools-v131-4.27.0.jar;C:\Users\donth\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.27.0\selenium-devtools-v85-4.27.0.jar;C:\Users\donth\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.27.0\selenium-edge-driver-4.27.0.jar;C:\Users\donth\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.27.0\selenium-firefox-driver-4.27.0.jar;C:\Users\donth\.m2\repository\org\seleniumhq\selenium\selenium-http\4.27.0\selenium-http-4.27.0.jar;C:\Users\donth\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\donth\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.27.0\selenium-ie-driver-4.27.0.jar;C:\Users\donth\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.27.0\selenium-remote-driver-4.27.0.jar;C:\Users\donth\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\donth\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\donth\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\donth\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\donth\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\donth\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\donth\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\donth\.m2\repository\io\opentelemetry\opentelemetry-api\1.44.1\opentelemetry-api-1.44.1.jar;C:\Users\donth\.m2\repository\io\opentelemetry\opentelemetry-context\1.44.1\opentelemetry-context-1.44.1.jar;C:\Users\donth\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.44.1\opentelemetry-exporter-logging-1.44.1.jar;C:\Users\donth\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.44.1\opentelemetry-sdk-common-1.44.1.jar;C:\Users\donth\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.44.1\opentelemetry-sdk-extension-autoconfigure-spi-1.44.1.jar;C:\Users\donth\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.44.1\opentelemetry-sdk-extension-autoconfigure-1.44.1.jar;C:\Users\donth\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.44.1-alpha\opentelemetry-api-incubator-1.44.1-alpha.jar;C:\Users\donth\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.44.1\opentelemetry-sdk-trace-1.44.1.jar;C:\Users\donth\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.44.1\opentelemetry-sdk-1.44.1.jar;C:\Users\donth\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.44.1\opentelemetry-sdk-metrics-1.44.1.jar;C:\Users\donth\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.44.1\opentelemetry-sdk-logs-1.44.1.jar;C:\Users\donth\.m2\repository\org\seleniumhq\selenium\selenium-os\4.27.0\selenium-os-4.27.0.jar;C:\Users\donth\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\donth\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.27.0\selenium-safari-driver-4.27.0.jar;C:\Users\donth\.m2\repository\org\seleniumhq\selenium\selenium-support\4.27.0\selenium-support-4.27.0.jar;C:\Users\donth\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\donth\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\donth\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\donth\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\donth\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\donth\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\donth\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\donth\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\donth\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\donth\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\donth\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\donth\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\donth\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\donth\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\donth\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\donth\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\donth\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\donth\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\donth\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\donth\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\donth\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\donth\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\donth\.m2\repository\io\cucumber\cucumber-java\7.20.0\cucumber-java-7.20.0.jar;C:\Users\donth\.m2\repository\io\cucumber\cucumber-core\7.20.0\cucumber-core-7.20.0.jar;C:\Users\donth\.m2\repository\io\cucumber\cucumber-gherkin\7.20.0\cucumber-gherkin-7.20.0.jar;C:\Users\donth\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.20.0\cucumber-gherkin-messages-7.20.0.jar;C:\Users\donth\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\donth\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\donth\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\donth\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\donth\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\donth\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\donth\.m2\repository\io\cucumber\datatable\7.20.0\datatable-7.20.0.jar;C:\Users\donth\.m2\repository\io\cucumber\cucumber-plugin\7.20.0\cucumber-plugin-7.20.0.jar;C:\Users\donth\.m2\repository\io\cucumber\docstring\7.20.0\docstring-7.20.0.jar;C:\Users\donth\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\donth\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\donth\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\donth\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\donth\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.20.0\cucumber-junit-platform-engine-7.20.0.jar;C:\Users\donth\.m2\repository\org\junit\platform\junit-platform-engine\1.11.2\junit-platform-engine-1.11.2.jar;C:\Users\donth\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\donth\.m2\repository\org\junit\platform\junit-platform-commons\1.11.2\junit-platform-commons-1.11.2.jar;C:\Users\donth\.m2\repository\io\cucumber\cucumber-picocontainer\7.20.0\cucumber-picocontainer-7.20.0.jar;C:\Users\donth\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\donth\.m2\repository\org\junit\platform\junit-platform-suite\1.11.3\junit-platform-suite-1.11.3.jar;C:\Users\donth\.m2\repository\org\junit\platform\junit-platform-suite-api\1.11.3\junit-platform-suite-api-1.11.3.jar;C:\Users\donth\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.11.3\junit-platform-suite-engine-1.11.3.jar;C:\Users\donth\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.11.3\junit-platform-suite-commons-1.11.3.jar;C:\Users\donth\.m2\repository\org\junit\platform\junit-platform-launcher\1.11.3\junit-platform-launcher-1.11.3.jar;C:\Users\donth\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.3\junit-jupiter-5.11.3.jar;C:\Users\donth\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.3\junit-jupiter-api-5.11.3.jar;C:\Users\donth\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.3\junit-jupiter-params-5.11.3.jar;C:\Users\donth\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.3\junit-jupiter-engine-5.11.3.jar;C:\Users\donth\.m2\repository\org\assertj\assertj-core\3.26.3\assertj-core-3.26.3.jar;C:\Users\donth\.m2\repository\net\bytebuddy\byte-buddy\1.14.18\byte-buddy-1.14.18.jar;C:\Users\donth\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.2\log4j-core-2.24.2.jar;C:\Users\donth\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.2\log4j-api-2.24.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="cucumber.filter.name" value="Accessibility page loads with all a11y features"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="26"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-26\bin"/>
+    <property name="sun.java.command" value="C:\Users\donth\AppData\Local\Temp\surefire17496236603166368306\surefirebooter-20261114132722745_3.jar C:\Users\donth\AppData\Local\Temp\surefire17496236603166368306 2026-11-14T13-27-22_507-jvmRun1 surefire-20261114132722745_1tmp surefire_0-20261114132722745_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="E:\TestverTesting\Skills\SeleniumJavaCucumber\target\test-classes;E:\TestverTesting\Skills\SeleniumJavaCucumber\target\classes;C:\Users\donth\.m2\repository\org\seleniumhq\selenium\selenium-java\4.27.0\selenium-java-4.27.0.jar;C:\Users\donth\.m2\repository\org\seleniumhq\selenium\selenium-api\4.27.0\selenium-api-4.27.0.jar;C:\Users\donth\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\donth\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.27.0\selenium-chrome-driver-4.27.0.jar;C:\Users\donth\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\donth\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.27.0\selenium-chromium-driver-4.27.0.jar;C:\Users\donth\.m2\repository\org\seleniumhq\selenium\selenium-json\4.27.0\selenium-json-4.27.0.jar;C:\Users\donth\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.27.0\selenium-manager-4.27.0.jar;C:\Users\donth\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.27.0\selenium-devtools-v129-4.27.0.jar;C:\Users\donth\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.27.0\selenium-devtools-v130-4.27.0.jar;C:\Users\donth\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.27.0\selenium-devtools-v131-4.27.0.jar;C:\Users\donth\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.27.0\selenium-devtools-v85-4.27.0.jar;C:\Users\donth\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.27.0\selenium-edge-driver-4.27.0.jar;C:\Users\donth\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.27.0\selenium-firefox-driver-4.27.0.jar;C:\Users\donth\.m2\repository\org\seleniumhq\selenium\selenium-http\4.27.0\selenium-http-4.27.0.jar;C:\Users\donth\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\donth\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.27.0\selenium-ie-driver-4.27.0.jar;C:\Users\donth\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.27.0\selenium-remote-driver-4.27.0.jar;C:\Users\donth\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\donth\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\donth\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\donth\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\donth\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\donth\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\donth\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\donth\.m2\repository\io\opentelemetry\opentelemetry-api\1.44.1\opentelemetry-api-1.44.1.jar;C:\Users\donth\.m2\repository\io\opentelemetry\opentelemetry-context\1.44.1\opentelemetry-context-1.44.1.jar;C:\Users\donth\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.44.1\opentelemetry-exporter-logging-1.44.1.jar;C:\Users\donth\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.44.1\opentelemetry-sdk-common-1.44.1.jar;C:\Users\donth\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.44.1\opentelemetry-sdk-extension-autoconfigure-spi-1.44.1.jar;C:\Users\donth\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.44.1\opentelemetry-sdk-extension-autoconfigure-1.44.1.jar;C:\Users\donth\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.44.1-alpha\opentelemetry-api-incubator-1.44.1-alpha.jar;C:\Users\donth\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.44.1\opentelemetry-sdk-trace-1.44.1.jar;C:\Users\donth\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.44.1\opentelemetry-sdk-1.44.1.jar;C:\Users\donth\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.44.1\opentelemetry-sdk-metrics-1.44.1.jar;C:\Users\donth\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.44.1\opentelemetry-sdk-logs-1.44.1.jar;C:\Users\donth\.m2\repository\org\seleniumhq\selenium\selenium-os\4.27.0\selenium-os-4.27.0.jar;C:\Users\donth\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\donth\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.27.0\selenium-safari-driver-4.27.0.jar;C:\Users\donth\.m2\repository\org\seleniumhq\selenium\selenium-support\4.27.0\selenium-support-4.27.0.jar;C:\Users\donth\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\donth\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\donth\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\donth\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\donth\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\donth\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\donth\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\donth\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\donth\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\donth\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\donth\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\donth\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\donth\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\donth\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\donth\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\donth\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\donth\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\donth\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\donth\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\donth\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\donth\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\donth\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\donth\.m2\repository\io\cucumber\cucumber-java\7.20.0\cucumber-java-7.20.0.jar;C:\Users\donth\.m2\repository\io\cucumber\cucumber-core\7.20.0\cucumber-core-7.20.0.jar;C:\Users\donth\.m2\repository\io\cucumber\cucumber-gherkin\7.20.0\cucumber-gherkin-7.20.0.jar;C:\Users\donth\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.20.0\cucumber-gherkin-messages-7.20.0.jar;C:\Users\donth\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\donth\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\donth\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\donth\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\donth\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\donth\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\donth\.m2\repository\io\cucumber\datatable\7.20.0\datatable-7.20.0.jar;C:\Users\donth\.m2\repository\io\cucumber\cucumber-plugin\7.20.0\cucumber-plugin-7.20.0.jar;C:\Users\donth\.m2\repository\io\cucumber\docstring\7.20.0\docstring-7.20.0.jar;C:\Users\donth\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\donth\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\donth\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\donth\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\donth\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.20.0\cucumber-junit-platform-engine-7.20.0.jar;C:\Users\donth\.m2\repository\org\junit\platform\junit-platform-engine\1.11.2\junit-platform-engine-1.11.2.jar;C:\Users\donth\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\donth\.m2\repository\org\junit\platform\junit-platform-commons\1.11.2\junit-platform-commons-1.11.2.jar;C:\Users\donth\.m2\repository\io\cucumber\cucumber-picocontainer\7.20.0\cucumber-picocontainer-7.20.0.jar;C:\Users\donth\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\donth\.m2\repository\org\junit\platform\junit-platform-suite\1.11.3\junit-platform-suite-1.11.3.jar;C:\Users\donth\.m2\repository\org\junit\platform\junit-platform-suite-api\1.11.3\junit-platform-suite-api-1.11.3.jar;C:\Users\donth\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.11.3\junit-platform-suite-engine-1.11.3.jar;C:\Users\donth\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.11.3\junit-platform-suite-commons-1.11.3.jar;C:\Users\donth\.m2\repository\org\junit\platform\junit-platform-launcher\1.11.3\junit-platform-launcher-1.11.3.jar;C:\Users\donth\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.3\junit-jupiter-5.11.3.jar;C:\Users\donth\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.3\junit-jupiter-api-5.11.3.jar;C:\Users\donth\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.3\junit-jupiter-params-5.11.3.jar;C:\Users\donth\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.3\junit-jupiter-engine-5.11.3.jar;C:\Users\donth\.m2\repository\org\assertj\assertj-core\3.26.3\assertj-core-3.26.3.jar;C:\Users\donth\.m2\repository\net\bytebuddy\byte-buddy\1.14.18\byte-buddy-1.14.18.jar;C:\Users\donth\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.2\log4j-core-2.24.2.jar;C:\Users\donth\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.2\log4j-api-2.24.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\donth"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-03-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-26"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="E:\TestverTesting\Skills\SeleniumJavaCucumber"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\donth\AppData\Local\Temp\surefire17496236603166368306\surefirebooter-20261114132722745_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="26+35-2893"/>
+    <property name="user.name" value="donth"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\donth\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\donth\AppData\Local\Temp\"/>
+    <property name="java.version" value="26"/>
+    <property name="user.dir" value="E:\TestverTesting\Skills\SeleniumJavaCucumber"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-26\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Python313\Scripts\;C:\Program Files\Python313\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Users\donth\AppData\Roaming\Python\Python313\Scripts;C:\Program Files\PostgreSQL\17\bin;C:\Program Files\Java\jdk-26\bin;D:\Softwares\Maven\apache-maven-3.9.14\bin;C:\Program Files\dotnet\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\donth\AppData\Local\Microsoft\WindowsApps;C:\Users\donth\AppData\Roaming\npm;C:\Users\donth\.lmstudio\bin;C:\Users\donth\AppData\Roaming\Python\Python313\Scripts;C:\Users\donth\AppData\Local\Programs\Ollama;C:\Users\donth\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\donth\AppData\Local\Microsoft\WinGet\Packages\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\platform-tools;C:\Users\donth\AppData\Local\Tella\current;C:\Users\donth\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\donth\.dotnet\tools;C:\Users\donth\.fly\bin;C:\Users\donth\AppData\Local\Programs\Microsoft VS Code\bin\copilot-shim;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="26+35-2893"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="70.0"/>
+  </properties>
+  <testcase name="Accessibility Module - Accessibility page loads with all a11y features" classname="Accessibility Module" time="14.019">
+    <system-out><![CDATA[
+@a11y @smoke
+Scenario: Accessibility page loads with all a11y features   &amp#27;[90m# features/a11y.feature:8&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI navigate to the accessibility page&amp#27;[0m                &amp#27;[90m# com.testver.steps.ModuleSteps.iNavigateToA11y()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe ARIA-labeled icon button should be visible&amp#27;[0m       &amp#27;[90m# com.testver.steps.ModuleSteps.ariaLabeledIconVisible()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe screen-reader only text section should be visible&amp#27;[0m &amp#27;[90m# com.testver.steps.ModuleSteps.screenReaderTextVisible()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe ARIA live region section should be visible&amp#27;[0m        &amp#27;[90m# com.testver.steps.ModuleSteps.ariaLiveRegionVisible()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe tabbable form section should be visible&amp#27;[0m           &amp#27;[90m# com.testver.steps.ModuleSteps.tabbableFormVisible()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe ARIA expanded button section should be visible&amp#27;[0m    &amp#27;[90m# com.testver.steps.ModuleSteps.ariaExpandedButtonVisible()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe broken ARIA section should be visible&amp#27;[0m             &amp#27;[90m# com.testver.steps.ModuleSteps.brokenAriaVisible()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 14, 2026 1:27:23 PM io.cucumber.junit.platform.engine.DiscoverySelectorResolver warnWhenCucumberFeaturesPropertyIsUsed
+WARNING: Discovering tests using the cucumber.features property. Other discovery selectors are ignored!
+
+This is a work around for the limited JUnit 5 support in Maven and Gradle. Please request/upvote/sponsor/ect better support for JUnit 5 discovery selectors. For details see: https://github.com/cucumber/cucumber-jvm/pull/2498
+
+If you are using the JUnit 5 Suite Engine, Platform Launcher API or Console Launcher you should not use this property. Please consult the JUnit 5 documentation on test selection.
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Nov 14, 2026 1:27:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 157
+Nov 14, 2026 1:27:31 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 157.0.8103.78. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="Accessibility Module - Click ARIA-labeled icon button" classname="Accessibility Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Accessibility Module - Update ARIA live region" classname="Accessibility Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Accessibility Module - Toggle ARIA expanded button" classname="Accessibility Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Admin Dashboard Module - Admin dashboard page loads with all sections" classname="Admin Dashboard Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="AJAX &amp; API Module - AJAX page loads with all API interaction types" classname="AJAX &amp; API Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="AJAX &amp; API Module - GET request returns data" classname="AJAX &amp; API Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="AJAX &amp; API Module - POST request creates data" classname="AJAX &amp; API Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="AJAX &amp; API Module - PUT request updates data" classname="AJAX &amp; API Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="AJAX &amp; API Module - DELETE request removes data" classname="AJAX &amp; API Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="AJAX &amp; API Module - Slow API request completes after delay" classname="AJAX &amp; API Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="AJAX &amp; API Module - Error status codes are handled" classname="AJAX &amp; API Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="AJAX &amp; API Module - Race condition with 5 parallel calls" classname="AJAX &amp; API Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="AJAX &amp; API Module - SSE stream starts and stops" classname="AJAX &amp; API Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Authentication Module - Login page loads with all key elements" classname="Authentication Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Authentication Module - Login with valid credentials" classname="Authentication Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Authentication Module - Signup page loads with all key elements" classname="Authentication Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Authentication Module - Forgot password page loads correctly" classname="Authentication Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Authentication Module - Navigate from login to signup and back" classname="Authentication Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Buttons &amp; Interactions Module - Buttons page loads with all button types" classname="Buttons &amp; Interactions Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Buttons &amp; Interactions Module - Single click button works" classname="Buttons &amp; Interactions Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Buttons &amp; Interactions Module - Toggle button toggles state" classname="Buttons &amp; Interactions Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Buttons &amp; Interactions Module - Button group selection" classname="Buttons &amp; Interactions Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Canvas &amp; SVG Module - Canvas page loads with all canvas types" classname="Canvas &amp; SVG Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Canvas &amp; SVG Module - Clear and save drawing canvas" classname="Canvas &amp; SVG Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Canvas &amp; SVG Module - Clear and confirm signature" classname="Canvas &amp; SVG Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Modals, Alerts &amp; Toasts Module - Dialogs page loads with all dialog types" classname="Modals, Alerts &amp; Toasts Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Modals, Alerts &amp; Toasts Module - Open and close custom modal" classname="Modals, Alerts &amp; Toasts Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Modals, Alerts &amp; Toasts Module - Show toast notifications" classname="Modals, Alerts &amp; Toasts Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Modals, Alerts &amp; Toasts Module - Show and dismiss sticky banner" classname="Modals, Alerts &amp; Toasts Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Modals, Alerts &amp; Toasts Module - Show and accept cookie consent" classname="Modals, Alerts &amp; Toasts Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Modals, Alerts &amp; Toasts Module - Confirmation before delete" classname="Modals, Alerts &amp; Toasts Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Drag &amp; Drop Module - Drag and drop page loads with all interaction types" classname="Drag &amp; Drop Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Loaders &amp; Waits Module - Dynamic page loads with all loader types" classname="Loaders &amp; Waits Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Loaders &amp; Waits Module - Spinner resolves after configurable delay" classname="Loaders &amp; Waits Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Loaders &amp; Waits Module - Skeleton loaders transition to real content" classname="Loaders &amp; Waits Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Loaders &amp; Waits Module - Element appears after clicking trigger" classname="Loaders &amp; Waits Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Loaders &amp; Waits Module - Element disappears after 5 seconds" classname="Loaders &amp; Waits Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Loaders &amp; Waits Module - Progress bar completes" classname="Loaders &amp; Waits Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Edge Cases Module - Edge cases page loads with all edge case types" classname="Edge Cases Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Edge Cases Module - Handle stale element re-render" classname="Edge Cases Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Edge Cases Module - Scroll to element out of view" classname="Edge Cases Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Edge Cases Module - Click below sticky header" classname="Edge Cases Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Edge Cases Module - Animated panel toggle" classname="Edge Cases Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Edge Cases Module - Open modal that locks scroll" classname="Edge Cases Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="File Operations Module - Files page loads with all file operation types" classname="File Operations Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Form Elements Module - Form elements page loads with standard inputs" classname="Form Elements Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Form Elements Module - Fill and submit standard inputs" classname="Form Elements Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Form Elements Module - Reset form clears all inputs" classname="Form Elements Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="iFrames &amp; Windows Module - Frames page loads with all frame types" classname="iFrames &amp; Windows Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="iFrames &amp; Windows Module - Open popup window" classname="iFrames &amp; Windows Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Testver Playground Homepage - Verify homepage loads with all key elements" classname="Testver Playground Homepage" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="i18n &amp; RTL Module - i18n page loads with language selection and unicode input" classname="i18n &amp; RTL Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="i18n &amp; RTL Module - Type special characters and unicode" classname="i18n &amp; RTL Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Locator Challenges Module - Locator challenges page loads with all challenge types" classname="Locator Challenges Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Locator Challenges Module - Click stable button by data-testid" classname="Locator Challenges Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Locator Challenges Module - Click deeply nested button" classname="Locator Challenges Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Locator Challenges Module - Click visible submit button" classname="Locator Challenges Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Real-time / WebSocket Module - Realtime page loads with all real-time features" classname="Real-time / WebSocket Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Real-time / WebSocket Module - Live counter increments and decrements" classname="Real-time / WebSocket Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Real-time / WebSocket Module - Send a chat message" classname="Real-time / WebSocket Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Shadow DOM Module - Shadow DOM page loads with all shadow DOM types" classname="Shadow DOM Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="E-commerce Flow Module - Shop page loads with all e-commerce features" classname="E-commerce Flow Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="E-commerce Flow Module - Filter products by search" classname="E-commerce Flow Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="E-commerce Flow Module - Add product to cart" classname="E-commerce Flow Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Tables &amp; Grids Module - Tables page loads with all table types" classname="Tables &amp; Grids Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Tables &amp; Grids Module - Search in rich data table" classname="Tables &amp; Grids Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Tables &amp; Grids Module - Switch between table tabs" classname="Tables &amp; Grids Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Tabs &amp; Accordions Module - Widgets page loads with all widget types" classname="Tabs &amp; Accordions Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Tabs &amp; Accordions Module - Switch between horizontal tabs" classname="Tabs &amp; Accordions Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Tabs &amp; Accordions Module - Accordion expand and collapse" classname="Tabs &amp; Accordions Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+  <testcase name="Tabs &amp; Accordions Module - Switch between vertical tabs" classname="Tabs &amp; Accordions Module" time="0.0">
+    <skipped message="&apos;cucumber.filter.name=Accessibility page loads with all a11y features&apos; did not match this scenario"/>
+  </testcase>
+</testsuite>

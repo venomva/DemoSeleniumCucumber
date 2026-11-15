@@ -1,0 +1,19 @@
+# Added by Testver — sign-in data and its keys never belong in git.
+users.db
+users.db-journal
+users.db-wal
+users.db-shm
+auth-secret.key
+recorded-secrets.json
+recorded-secrets.json.tmp-*
+secret-store.key
+ci-runs.json
+ci-runs.json.*
+ci-queue.json
+ci-queue.json.*
+ci-config.json.*
+remote-updates.json
+git-pending-stash.json
+logs/
+vendor-files.json
+public-url.json
